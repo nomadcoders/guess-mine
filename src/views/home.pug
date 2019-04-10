@@ -12,5 +12,7 @@ html(lang="en")
                 input(placeholder="Whats your nickname", type="text")
         .gameContainer#jsGame
             h1 You are logged in
+        script.
+            window.events = !{events}
         script(src="/socket.io/socket.io.js")
         script(src="/js/main.js")
