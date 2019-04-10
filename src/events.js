@@ -1,6 +1,8 @@
 const events = {
   setNickname: "setNickname",
-  newUser: "newUser"
+  newUser: "newUser",
+  disconnect: "disconnect",
+  disconnected: "disconnected"
 };
 
 export default events;
