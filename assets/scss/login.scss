@@ -1,0 +1,26 @@
+input {
+  padding: 10px;
+  border: 0;
+  background-color: $greyColor;
+  box-shadow: 0 2px 4px rgba(50, 50, 93, 0.1), 0 0 0 1px rgba(42, 47, 69, 0.16);
+  border-radius: 5px;
+  font-size: 14px;
+  &:focus {
+    outline: none;
+  }
+}
+
+.loginBox {
+  box-shadow: $boxShadow;
+  background-color: white;
+  padding: 40px;
+  border-radius: 5px;
+  .loginBox__title {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+  input {
+    width: 200px;
+  }
+}
