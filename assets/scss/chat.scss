@@ -1,7 +1,6 @@
 .chat {
   .chat__messages {
     width: 50%;
-
     width: 100%;
     padding: 20px 10px;
     overflow: scroll;
@@ -9,6 +8,18 @@
     height: 50vh;
     border-radius: 10px;
     box-shadow: 0 3px 36px rgba(23, 55, 87, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+    li {
+      margin-bottom: 30px;
+      span {
+        font-weight: 600;
+      }
+      .self {
+        color: $black;
+      }
+      .out {
+        color: $organge;
+      }
+    }
   }
   .chat__form {
     display: flex;
