@@ -1,2 +1,1 @@
-body {
-  background-color: red; }
+@-webkit-keyframes sexy{0%{color:red}to{color:#00f}}@keyframes sexy{0%{color:red}to{color:#00f}}body{background-color:#ff0;position:-webkit-sticky;position:sticky}

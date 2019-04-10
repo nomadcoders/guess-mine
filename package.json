@@ -13,6 +13,8 @@
     "eslint": "^5.16.0",
     "express": "^4.16.4",
     "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-csso": "^3.0.1",
     "gulp-sass": "^4.0.2",
     "morgan": "^1.9.1",
     "node-sass": "^4.11.0",
@@ -22,7 +24,7 @@
   },
   "scripts": {
     "dev:server": "nodemon --exec babel-node src/server",
-    "build:styles": "gulp styles"
+    "dev:assets": "gulp"
   },
   "devDependencies": {
     "eslint-config-prettier": "^4.1.0",
