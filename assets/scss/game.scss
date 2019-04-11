@@ -3,6 +3,7 @@
   width: 90%;
   margin: 0 auto;
   justify-content: center;
+  flex-wrap: wrap;
   .canvas,
   .chatMessages {
     background-color: white;
@@ -71,6 +72,6 @@
     }
   }
   .chat {
-    width: 18%;
+    width: 200px;
   }
 }
